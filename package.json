@@ -1,11 +1,13 @@
 {
   "name": "nodejsweb",
   "version": "1.0.0",
-  "description": "test web by nodejs",
-  "main": "index.js",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "kobi",
-  "license": "ISC"
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
