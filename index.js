@@ -6,7 +6,7 @@ http.createServer(function (request, response) {
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
-   // Send the response body as "Hello World"
+   // Send the response body as "Hello World update 4/10/2020"
    response.end('Hello World\n');
 }).listen(8081);
 
