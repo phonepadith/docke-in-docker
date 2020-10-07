@@ -6,9 +6,10 @@
 # Solutions
 when Jenkins get an ERROR 
 "jenkins java.io.ioexception: cannot run program "docker": error=2, no such file or director"
+"Docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock"
 
 ```
 usermod -aG docker jenkins
 usermod -aG root jenkins
-chmod 664 /var/run/docker.sock
+chmod 777 /var/run/docker.sock
 ```
