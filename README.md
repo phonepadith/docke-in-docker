@@ -14,3 +14,8 @@ usermod -aG docker jenkins
 usermod -aG root jenkins
 chmod 777 /var/run/docker.sock
 ```
+# Other tutorial CI/CD
+Normally, you can deploy nodejs application to could server directly by followong this tutorial below:
+https://medium.com/@ricardo_fideles/how-to-deploy-a-nodejs-app-with-jenkins-ci-cd-at-digital-ocean-bb44ddd7de2d
+
+Thankful Ricado !!
