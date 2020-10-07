@@ -18,4 +18,4 @@ chmod 777 /var/run/docker.sock
 Normally, you can deploy nodejs application to could server directly by followong this tutorial below:
 https://medium.com/@ricardo_fideles/how-to-deploy-a-nodejs-app-with-jenkins-ci-cd-at-digital-ocean-bb44ddd7de2d
 
-Thankful Ricado !!
+Thankful Ricardo !!
